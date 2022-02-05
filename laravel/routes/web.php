@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/anak-males', function() {
+    return '<p>Halo Anak Males</p>';
+});
